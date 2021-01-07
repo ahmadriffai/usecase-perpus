@@ -7,13 +7,16 @@ Fitur yang ada dalam aplikasi antara lain:
     -	peminjaman buku
     -	pengembalian buku
     -	perpanjang buku
--Pada aplikasi perpustakaan ini terdapat 2 aktor yaitu:
-1.	Anggota
--	Merupakan orang yang nantinya akan melakukan registrasi, peminjaman buku, dan perpanjang buku
--	Anggota perpus melakukan registrasi dahulu sebelum bisa melakukan peminjaman, pengembalian, dan perpanjang buku
 
-2.	Petugas	
--	Orang yang bertugas mengelola data buku dan peminjaman
--	Petugas melakuan login terlebih dahulu sebelum bisa melakukan pengelolaan data buku dan peminjaman
--	Ketika petugas mengelola data anggota akan secara otomatis bisa mengelola data peminjaman
+
+
+- Pada aplikasi perpustakaan ini terdapat 2 aktor yaitu:
+    - Anggota
+        -	Merupakan orang yang nantinya akan melakukan registrasi, peminjaman buku, dan perpanjang buku
+        -	Anggota perpus melakukan registrasi dahulu sebelum bisa melakukan peminjaman, pengembalian, dan perpanjang buku
+
+    - Petugas	
+        -	Orang yang bertugas mengelola data buku dan peminjaman
+        -	Petugas melakuan login terlebih dahulu sebelum bisa melakukan pengelolaan data buku dan peminjaman
+        -	Ketika petugas mengelola data anggota akan secara otomatis bisa mengelola data peminjaman
 
