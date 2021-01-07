@@ -1,5 +1,7 @@
 # usecase-perpus
 
+![alt text](https://github.com/ahmadriffai/usecase-perpus/out/usecase-app-perpus/main/usecase app perpus.jpg?raw=true)
+
 - Aplikasi perpustakaan ini merupakan sebuah aplikasi untuk merekap semua data buku yang ada di perpustakaan, seperti judul buku, pengarang, tahun terbit dan tahun terbit, aplikasi ini juga bisa mencatat  data peminjaman buku yang dilakukan oleh anggota perpustakaan yang sudah terdaftar di sistem.
 Aplikasi perpustakaan ini dioperasikan oleh Pegawai/Petugas dari perpustakaan tersebut
 Fitur yang ada dalam aplikasi antara lain:
@@ -19,4 +21,5 @@ Fitur yang ada dalam aplikasi antara lain:
         -	Orang yang bertugas mengelola data buku dan peminjaman
         -	Petugas melakuan login terlebih dahulu sebelum bisa melakukan pengelolaan data buku dan peminjaman
         -	Ketika petugas mengelola data anggota akan secara otomatis bisa mengelola data peminjaman
+
 
