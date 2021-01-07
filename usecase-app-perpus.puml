@@ -1,0 +1,33 @@
+@startuml usecase app perpus
+left to right direction
+actor "Pegawai" as pegawai
+actor "Anggota Perpus" as anggota
+
+rectangle "Aplikasi Perpustakaan UNSIQ" as aplikas_perpus{
+
+    anggota === (registrasi)
+    anggota === (meminjam buku)
+    anggota === (mengembalikan buku)
+    anggota === (perpanjang buku)
+
+
+    (login) === pegawai
+    (mengelola data buku) === pegawai
+    (mengelola data peminjaman) === pegawai
+    (mengelola anggota) === pegawai
+
+    (registrasi) .> (meminjam buku):include
+    (meminjam buku) .> (mengembalikan buku):include
+    (mengembalikan buku) .> (perpanjang buku):include
+
+    (mengelola anggota) .> (mengelola data peminjaman):extends
+    (login) .> (mengelola anggota):include
+    (login) .> (mengelola data buku):include
+    
+    
+
+
+}
+
+
+@enduml
